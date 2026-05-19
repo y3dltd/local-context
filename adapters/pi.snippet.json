@@ -1,0 +1,9 @@
+{
+  "name": "local-context",
+  "version": "0.1.0",
+  "type": "mcp",
+  "transport": "stdio",
+  "command": "bun",
+  "args": ["/absolute/path/to/local-context/bin/server.ts"],
+  "description": "Version-pinned upstream-repo Q&A via a small local model. Use for narrow library facts."
+}

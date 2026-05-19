@@ -1,0 +1,16 @@
+node_modules/
+repos/
+.cache/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+.local-context.json
+dist/
+*.tsbuildinfo
+.vscode/
+.idea/
+.zed/
+*.pem
+*.key

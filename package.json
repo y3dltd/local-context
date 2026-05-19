@@ -1,0 +1,31 @@
+{
+  "name": "local-context",
+  "version": "0.1.0",
+  "description": "Local MCP sidecar that lets a small model on your own machine answer coding-agent questions about version-pinned upstream repos, with compact cited answers.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "local-context": "./bin/cli.ts"
+  },
+  "scripts": {
+    "start": "bun bin/server.ts",
+    "cli": "bun bin/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test tests",
+    "llama": "bash scripts/start-llama.sh"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.0-canary.48",
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "ai": "^7.0.0-canary.142",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.13",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "bun": ">=1.1"
+  }
+}

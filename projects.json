@@ -1,0 +1,40 @@
+{
+  "projects": {
+    "ai-sdk": {
+      "url": "https://github.com/vercel/ai",
+      "default_branch": "main",
+      "paths": ["packages", "content", "examples"],
+      "tag_prefix": "ai@"
+    },
+    "react-hook-form": {
+      "url": "https://github.com/react-hook-form/react-hook-form",
+      "default_branch": "master",
+      "paths": ["src", "docs"],
+      "tag_prefix": "v"
+    },
+    "next": {
+      "url": "https://github.com/vercel/next.js",
+      "default_branch": "canary",
+      "paths": ["packages/next", "docs"],
+      "tag_prefix": "v"
+    },
+    "tanstack-query": {
+      "url": "https://github.com/TanStack/query",
+      "default_branch": "main",
+      "paths": ["packages", "docs"],
+      "tag_prefix": "v"
+    },
+    "drizzle-orm": {
+      "url": "https://github.com/drizzle-team/drizzle-orm",
+      "default_branch": "main",
+      "paths": ["drizzle-orm/src", "drizzle-kit/src", "docs"],
+      "tag_prefix": "drizzle-orm@"
+    },
+    "zod": {
+      "url": "https://github.com/colinhacks/zod",
+      "default_branch": "main",
+      "paths": ["src", "packages"],
+      "tag_prefix": "v"
+    }
+  }
+}

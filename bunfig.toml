@@ -1,0 +1,4 @@
+# Restrict bun test discovery to our tests/ folder so it never tries to
+# run the upstream test files that live under repos/<project>@<version>/.
+[test]
+root = "./tests"

@@ -1,0 +1,9 @@
+{
+  "mcp": {
+    "local-context": {
+      "type": "local",
+      "command": ["bun", "/absolute/path/to/local-context/bin/server.ts"],
+      "enabled": true
+    }
+  }
+}

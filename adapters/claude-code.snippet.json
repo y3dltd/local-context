@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "local-context": {
+      "command": "bun",
+      "args": ["/absolute/path/to/local-context/bin/server.ts"]
+    }
+  }
+}
